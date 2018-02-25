@@ -1,0 +1,64 @@
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.jqte {
+  margin: 3px;
+}
+
+.jqte_tool.jqte_tool_1 .jqte_tool_label {
+  height:26px;
+}
+
+.alerts {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  right: 20px;
+}
+
+.alerts > div {
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    padding-right: 20px;
+  }
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.header-btn {
+  margin-top: 25px;
+  padding: 6px 29px;
+}
+
+.publication-date {
+  margin-top: 23px;
+  float: right;
+}
